@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#F4EFED] px-25 py-25 crimson-text-regular">
+  <div class="bg-[#F4EFED] px-25 py-25 crimson-text-regular pb-50">
     <div
       class="title text-end text-2xl tracking-[0.8rem] text-[#F68CC2] crimson-text-bold"
     >

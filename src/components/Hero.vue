@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-[#222222] text-white grid grid-cols-12 px-25 py-10 crimson-text-regular"
+    class="bg-[#222222] text-white grid grid-cols-12 px-25 py-10 crimson-text-regular pb-50"
   >
     <div class="col-span-6 p-5">
       <div class="hero-welcome crimson-text-regular-italic text-2xl my-2">
