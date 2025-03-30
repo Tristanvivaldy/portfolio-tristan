@@ -15,6 +15,9 @@
     <div class="portfolio">
       <Portfolio />
     </div>
+    <div class="contact">
+      <Contact />
+    </div>
   </div>
 </template>
 
@@ -24,6 +27,7 @@ import Hero from "./components/Hero.vue";
 import About from "./components/About.vue";
 import Resume from "./components/Resume.vue";
 import Portfolio from "./components/Portfolio.vue";
+import Contact from "./components/Contact.vue";
 export default {
   name: "Home",
   components: {
@@ -32,6 +36,7 @@ export default {
     About,
     Resume,
     Portfolio,
+    Contact,
   },
 };
 </script>
