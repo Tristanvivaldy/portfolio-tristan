@@ -89,9 +89,9 @@
       </div>
     </div>
     <div
-      class="absolute left-0 bottom-10 w-full flex justify-center items-center text-3xl crimson-text-regular-italic"
+      class="absolute left-0 bottom-10 w-full flex justify-center items-center text-xl crimson-text-regular-italic"
     >
-      -Just Be Yourself-
+      "Every great project starts with a single commit."
     </div>
   </div>
 </template>

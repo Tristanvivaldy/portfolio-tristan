@@ -1,23 +1,25 @@
 <template>
-  <div class="navbar">
-    <Navbar />
-  </div>
-  <div class="content">
-    <div class="hero">
-      <Hero />
-    </div>
-    <div class="about">
-      <About />
-    </div>
-    <div class="resume">
-      <Resume />
-    </div>
-    <div class="portfolio">
-      <Portfolio />
-    </div>
-    <div class="contact">
-      <Contact />
-    </div>
+  <div id="smooth-wrapper">
+    <section class="navbar">
+      <Navbar />
+    </section>
+    <section class="content">
+      <section id="hero" class="hero">
+        <Hero />
+      </section>
+      <section id="about" class="about">
+        <About />
+      </section>
+      <section id="resume" class="resume">
+        <Resume />
+      </section>
+      <section id="portfolio" class="portfolio">
+        <Portfolio />
+      </section>
+      <section id="contact" class="contact">
+        <Contact />
+      </section>
+    </section>
   </div>
 </template>
 
@@ -28,6 +30,7 @@ import About from "./components/About.vue";
 import Resume from "./components/Resume.vue";
 import Portfolio from "./components/Portfolio.vue";
 import Contact from "./components/Contact.vue";
+
 export default {
   name: "Home",
   components: {
@@ -38,10 +41,16 @@ export default {
     Portfolio,
     Contact,
   },
+  mounted() {},
+  methods: {},
 };
 </script>
 
 <style>
+.smooth-wrapper {
+  scroll-behavior: smooth;
+}
+
 .rubik-wet-paint {
   font-family: "Rubik Wet Paint", system-ui;
   font-weight: 400;
