@@ -1,5 +1,5 @@
 <template>
-  <div id="smooth-wrapper">
+  <div id="smooth-wrapper" class="overflow-hidden">
     <section class="navbar">
       <Navbar />
     </section>
@@ -24,6 +24,8 @@
 </template>
 
 <script>
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Navbar from "./components/Navbar.vue";
 import Hero from "./components/Hero.vue";
 import About from "./components/About.vue";
@@ -41,16 +43,33 @@ export default {
     Portfolio,
     Contact,
   },
-  mounted() {},
+  mounted() {
+    AOS.init();
+
+    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+        const targetId = this.getAttribute("href").substring(1);
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+          targetElement.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+          });
+        }
+      });
+    });
+  },
   methods: {},
 };
 </script>
 
 <style>
-.smooth-wrapper {
+html,
+body {
   scroll-behavior: smooth;
 }
-
 .rubik-wet-paint {
   font-family: "Rubik Wet Paint", system-ui;
   font-weight: 400;

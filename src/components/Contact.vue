@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-[#222222] text-white px-25 py-25 crimson-text-regular pb-150 relative"
+    class="bg-[#222222] text-white px-25 crimson-text-regular relative min-h-screen"
   >
     <div
       class="title text-2xl tracking-[0.8rem] text-[#F68CC2] crimson-text-bold"
@@ -9,7 +9,10 @@
     </div>
     <div class="mt-30">
       <div
-        class="absolute left-0 bg-white w-5/12 h-3/6 rounded-r-4xl shadow-xs shadow-white"
+        class="absolute left-0 bg-white w-5/12 h-[60vh] rounded-r-4xl shadow-xs shadow-white"
+        data-aos="fade-right"
+        data-aos-duration="750"
+        data-aos-anchor-placement="top-center"
       >
         <div class="profile text-black px-10 py-7">
           <p class="font-bold text-[#3E1F92] text-lg">Contact Me</p>
@@ -37,7 +40,10 @@
         </div>
       </div>
       <div
-        class="absolute right-0 bg-white w-5/12 h-3/6 rounded-l-4xl shadow-xs shadow-white"
+        class="absolute right-0 bg-white w-5/12 h-[60vh] rounded-l-4xl shadow-xs shadow-white"
+        data-aos="fade-left"
+        data-aos-duration="750"
+        data-aos-anchor-placement="top-center"
       >
         <div class="profile text-black px-10 py-7">
           <div class="grid grid-cols-12 gap-10">
@@ -90,6 +96,7 @@
     </div>
     <div
       class="absolute left-0 bottom-10 w-full flex justify-center items-center text-xl crimson-text-regular-italic"
+      data-aos="zoom-out"
     >
       "Every great project starts with a single commit."
     </div>

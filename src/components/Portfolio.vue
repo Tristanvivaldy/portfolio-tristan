@@ -1,112 +1,113 @@
 <template>
-  <div class="bg-[#F4EFED] py-25 crimson-text-regular pb-50">
-    <div
-      class="px-25 title text-end text-2xl tracking-[0.8rem] text-[#F68CC2] crimson-text-bold"
-    >
-      PORTFOLIO
-    </div>
-    <div
-      class="portfolio-container flex px-80 py-10 mt-20 gap-100 overflow-x-hidden"
-    >
-      <a
-        href="#"
-        class="panel hover:opacity-70 duration-300 rounded-b-4xl min-w-4xl shadow-xl relative"
+  <div>
+    <div class="bg-[#F4EFED] py-5 crimson-text-regular">
+      <div
+        class="px-25 title text-end text-2xl tracking-[0.8rem] text-[#F68CC2] crimson-text-bold"
       >
-        <div>
-          <img
-            src="../assets/p-portfolio.jpg"
-            class="rounded-t-4xl"
-            alt="portfolio"
-          />
-          <div class="p-5">
-            <div class="card-content mb-5">
-              <div class="card-title text-2xl font-semibold">
-                Portfolio Tristan
+        PORTFOLIO
+      </div>
+      <div
+        class="portfolio-container flex px-80 py-10 mt-20 gap-100 overflow-x-hidden"
+      >
+        <a
+          href="#"
+          class="panel hover:opacity-70 duration-300 rounded-b-4xl min-w-4xl shadow-xl relative"
+        >
+          <div>
+            <img
+              src="../assets/p-portfolio.jpg"
+              class="rounded-t-4xl"
+              alt="portfolio"
+            />
+            <div class="p-5">
+              <div class="card-content mb-5">
+                <div class="card-title text-2xl font-semibold">
+                  Portfolio Tristan
+                </div>
+                <div class="card-subtitle">- 18 March 2025 -</div>
+                <div class="card-desc mt-2 text-lg">
+                  Personal online space designed to showcase skills, experience,
+                  and projects in a professional and visually appealing way.
+                  This project involves designing and developing a fully
+                  responsive and interactive portfolio website that highlights
+                  personal or professional achievements.
+                </div>
               </div>
-              <div class="card-subtitle">- 18 March 2025 -</div>
-              <div class="card-desc mt-2 text-lg">
-                Personal online space designed to showcase skills, experience,
-                and projects in a professional and visually appealing way. This
-                project involves designing and developing a fully responsive and
-                interactive portfolio website that highlights personal or
-                professional achievements.
-              </div>
-            </div>
-            <div class="flex justify-end absolute right-5 bottom-5">
-              <div
-                class="rounded-full bg-white px-3 py-1 font-bold group-hover:bg-[#222222] group-hover:text-white"
-              >
-                01
+              <div class="flex justify-end absolute right-5 bottom-5">
+                <div
+                  class="rounded-full bg-white px-3 py-1 font-bold group-hover:bg-[#222222] group-hover:text-white"
+                >
+                  01
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </a>
-      <a
-        href="#"
-        class="panel hover:opacity-70 duration-300 rounded-b-4xl min-w-4xl shadow-xl relative"
-      >
-        <div>
-          <img
-            src="../assets/p-sentimen.jpg"
-            class="rounded-t-4xl"
-            alt="sentimen"
-          />
-          <div class="p-5">
-            <div class="card-content mb-5">
-              <div class="card-title text-2xl font-semibold">
-                Sentiment Analysis on Steam Apps
+        </a>
+        <a
+          href="#"
+          class="panel hover:opacity-70 duration-300 rounded-b-4xl min-w-4xl shadow-xl relative"
+        >
+          <div>
+            <img
+              src="../assets/p-sentimen.jpg"
+              class="rounded-t-4xl"
+              alt="sentimen"
+            />
+            <div class="p-5">
+              <div class="card-content mb-5">
+                <div class="card-title text-2xl font-semibold">
+                  Sentiment Analysis on Steam Apps
+                </div>
+                <div class="card-subtitle">- 9 January 2025 -</div>
+                <div class="card-desc mt-2 text-lg">
+                  This project involves developing a sentiment analysis website
+                  for Steam applications. The website allows users to select a
+                  Steam app and analyze its user reviews.
+                </div>
               </div>
-              <div class="card-subtitle">- 9 January 2025 -</div>
-              <div class="card-desc mt-2 text-lg">
-                This project involves developing a sentiment analysis website
-                for Steam applications. The website allows users to select a
-                Steam app and analyze its user reviews.
-              </div>
-            </div>
-            <div class="flex justify-end absolute right-5 bottom-5">
-              <div
-                class="rounded-full bg-white px-3 py-1 font-bold group-hover:bg-[#755F4C] group-hover:text-white"
-              >
-                02
-              </div>
-            </div>
-          </div>
-        </div>
-      </a>
-      <a
-        href="#"
-        class="panel hover:opacity-70 duration-300 rounded-b-4xl min-w-4xl shadow-xl relative"
-      >
-        <div>
-          <img
-            src="../assets/p-librarias.jpg"
-            class="rounded-t-4xl h-103"
-            alt="librarias"
-          />
-          <div class="p-5">
-            <div class="card-content">
-              <div class="card-title text-2xl font-semibold">
-                Librarias Website
-              </div>
-              <div class="card-subtitle">- 31 December 2023 -</div>
-              <div class="card-desc mt-2 text-lg">
-                This website is designed to provide comprehensive information
-                about books available in a digital library.
-              </div>
-            </div>
-            <div class="flex justify-end absolute right-5 bottom-5">
-              <div
-                class="rounded-full bg-white px-3 py-1 font-bold group-hover:bg-[#CACACA] group-hover:text-black"
-              >
-                03
+              <div class="flex justify-end absolute right-5 bottom-5">
+                <div
+                  class="rounded-full bg-white px-3 py-1 font-bold group-hover:bg-[#755F4C] group-hover:text-white"
+                >
+                  02
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </a>
-    </div>
-    <!-- <div>
+        </a>
+        <a
+          href="#"
+          class="panel hover:opacity-70 duration-300 rounded-b-4xl min-w-4xl shadow-xl relative"
+        >
+          <div>
+            <img
+              src="../assets/p-librarias.jpg"
+              class="rounded-t-4xl h-103"
+              alt="librarias"
+            />
+            <div class="p-5">
+              <div class="card-content">
+                <div class="card-title text-2xl font-semibold">
+                  Librarias Website
+                </div>
+                <div class="card-subtitle">- 31 December 2023 -</div>
+                <div class="card-desc mt-2 text-lg">
+                  This website is designed to provide comprehensive information
+                  about books available in a digital library.
+                </div>
+              </div>
+              <div class="flex justify-end absolute right-5 bottom-5">
+                <div
+                  class="rounded-full bg-white px-3 py-1 font-bold group-hover:bg-[#CACACA] group-hover:text-black"
+                >
+                  03
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- <div>
       <div class="flex gap-10">
         <img
           src="https://github-readme-stats.vercel.app/api?username=Tristanvivaldy&show_icons=true&theme=radical"
@@ -120,6 +121,8 @@
         />
       </div>
     </div> -->
+    </div>
+    <WavePortfolio class="bg-[#222222]" />
   </div>
 </template>
 
@@ -127,12 +130,16 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Axios from "axios";
+import WavePortfolio from "../assets/wave/WavePortfolio.vue";
 
 gsap.registerPlugin(ScrollTrigger);
 export default {
   name: "Portfolio",
   data() {
     return {};
+  },
+  components: {
+    WavePortfolio,
   },
   mounted() {
     this.portfolioScroll();
