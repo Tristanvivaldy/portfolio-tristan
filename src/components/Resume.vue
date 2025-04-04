@@ -1,6 +1,8 @@
 <template>
   <div>
-    <div class="bg-[#222222] text-white px-25 py-10 crimson-text-regular">
+    <div
+      class="bg-[#222222] text-white px-25 py-10 crimson-text-regular -mt-30"
+    >
       <div
         class="title text-2xl tracking-[0.8rem] text-[#F68CC2] crimson-text-bold"
       >

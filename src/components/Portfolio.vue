@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="bg-[#F4EFED] py-5 crimson-text-regular">
+    <div class="bg-[#F4EFED] py-5 crimson-text-regular -mt-20">
       <div
         class="px-25 title text-end text-2xl tracking-[0.8rem] text-[#F68CC2] crimson-text-bold"
       >
@@ -10,7 +10,9 @@
         class="portfolio-container flex px-80 py-10 mt-20 gap-100 overflow-x-hidden"
       >
         <a
-          href="#"
+          href="https://github.com/Tristanvivaldy/portfolio-tristan"
+          target="_blank"
+          rel="noopener noreferrer"
           class="panel hover:opacity-70 duration-300 rounded-b-4xl min-w-4xl shadow-xl relative"
         >
           <div>
@@ -44,7 +46,9 @@
           </div>
         </a>
         <a
-          href="#"
+          href="https://github.com/Tristanvivaldy/steamapplicationreview"
+          target="_blank"
+          rel="noopener noreferrer"
           class="panel hover:opacity-70 duration-300 rounded-b-4xl min-w-4xl shadow-xl relative"
         >
           <div>
@@ -76,7 +80,9 @@
           </div>
         </a>
         <a
-          href="#"
+          href="https://github.com/Tristanvivaldy/librerias"
+          target="_blank"
+          rel="noopener noreferrer"
           class="panel hover:opacity-70 duration-300 rounded-b-4xl min-w-4xl shadow-xl relative"
         >
           <div>

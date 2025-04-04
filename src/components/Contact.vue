@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-[#222222] text-white px-25 crimson-text-regular relative min-h-screen"
+    class="bg-[#222222] text-white px-25 crimson-text-regular relative min-h-screen -mt-30"
   >
     <div
       class="title text-2xl tracking-[0.8rem] text-[#F68CC2] crimson-text-bold"
@@ -45,24 +45,31 @@
         data-aos-duration="750"
         data-aos-anchor-placement="top-center"
       >
-        <div class="profile text-black px-10 py-7">
+        <form
+          @submit.prevent="submitForm"
+          class="profile text-black px-10 py-7"
+        >
           <div class="grid grid-cols-12 gap-10">
             <div class="col-span-6">
               <label class="text-lg font-semibold" for="name">Name</label>
               <input
+                v-model="userName"
                 type="text"
-                id="name"
                 class="border-2 mt-2 border-gray-300 rounded-lg p-2 w-full"
                 placeholder="Full name"
+                required
               />
             </div>
             <div class="col-span-6">
-              <label class="text-lg font-semibold" for="email">Email</label>
+              <label class="text-lg font-semibold" for="email"
+                >Email Address</label
+              >
               <input
+                v-model="userEmail"
                 type="email"
-                id="email"
                 class="border-2 mt-2 border-gray-300 rounded-lg p-2 w-full"
-                placeholder="Email Address"
+                placeholder="Email"
+                required
               />
             </div>
           </div>
@@ -71,27 +78,30 @@
               >Phone Number</label
             >
             <input
+              v-model="userPhone"
               type="number"
-              id="phone-number"
               class="border-2 mt-2 border-gray-300 rounded-lg p-2 w-full"
               placeholder="Phone Number"
+              required
             />
           </div>
           <div class="mt-2">
             <label class="text-lg font-semibold" for="message">Message</label>
             <textarea
-              id="message"
+              v-model="userMessage"
               class="border-2 mt-2 border-gray-300 rounded-lg p-2 w-full h-30 resize-none"
               placeholder="Your Message Here..."
+              required
             />
           </div>
           <button
             class="mt-1 cursor-pointer px-6 py-2 bg-[#222222] rounded-xl text-white hover:bg-[#424242] duration-200"
             type="submit"
+            @click="sentMessage"
           >
             Submit
           </button>
-        </div>
+        </form>
       </div>
     </div>
     <div
@@ -107,12 +117,53 @@
 import LocationIcon from "../assets/icons/LocationIcon.vue";
 import EnvelopeIcon from "../assets/icons/EnvelopeIcon.vue";
 import PhoneIcon from "../assets/icons/PhoneIcon.vue";
+import { useToast } from "vue-toastification";
 export default {
   name: "ContactSection",
   components: {
     LocationIcon,
     EnvelopeIcon,
     PhoneIcon,
+  },
+  data() {
+    return {
+      userName: "",
+      userEmail: "",
+      userPhone: "",
+      userMessage: "",
+    };
+  },
+  methods: {
+    sentMessage() {
+      const toast = useToast();
+      const formData = new FormData();
+      formData.append("entry.1953570482", this.userName);
+      formData.append("entry.816137974", this.userEmail);
+      formData.append("entry.603370130", this.userPhone);
+      formData.append("entry.14687467", this.userMessage);
+
+      fetch(
+        "https://docs.google.com/forms/d/e/1FAIpQLScbRpZFz39hU7LNHni1ftvETd_D-ugwrLHTq5H5hvzOPHK_ug/formResponse",
+        {
+          method: "POST",
+          body: formData,
+          mode: "no-cors",
+        }
+      )
+        .then(() => {
+          toast.success("Message sent successfully!", { timeout: 3000 });
+          this.userName = "";
+          this.userEmail = "";
+          this.userPhone = "";
+          this.userMessage = "";
+        })
+        .catch((error) => {
+          toast.error("Failed sent message. Try again later!", {
+            timeout: 3000,
+          });
+          console.error(error);
+        });
+    },
   },
 };
 </script>

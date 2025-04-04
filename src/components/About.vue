@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="bg-[#F4EFED] px-25 crimson-text-regular py-10">
+    <div class="bg-[#F4EFED] px-25 crimson-text-regular py-25">
       <div
         class="title text-end text-2xl tracking-[0.8rem] text-[#F68CC2] crimson-text-bold"
       >
