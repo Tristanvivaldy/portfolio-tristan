@@ -1,9 +1,9 @@
 <template>
   <div
-    class="bg-[#222222] text-white px-25 crimson-text-regular relative min-h-screen -mt-30"
+    class="dark:bg-[#222222] bg-[#F0ECE8] text-white px-25 crimson-text-regular relative min-h-screen -mt-30"
   >
     <div
-      class="title text-2xl tracking-[0.8rem] text-[#F68CC2] crimson-text-bold"
+      class="title text-2xl tracking-[0.8rem] dark:text-[#F68CC2] text-[#C14493] crimson-text-bold"
     >
       CONTACT
     </div>
@@ -105,7 +105,7 @@
       </div>
     </div>
     <div
-      class="absolute left-0 bottom-10 w-full flex justify-center items-center text-xl crimson-text-regular-italic"
+      class="absolute left-0 bottom-10 w-full flex justify-center items-center text-xl crimson-text-regular-italic text-black dark:text-white"
       data-aos="zoom-out"
     >
       "Every great project starts with a single commit."
@@ -114,9 +114,9 @@
 </template>
 
 <script>
-import LocationIcon from "../assets/icons/LocationIcon.vue";
-import EnvelopeIcon from "../assets/icons/EnvelopeIcon.vue";
-import PhoneIcon from "../assets/icons/PhoneIcon.vue";
+import LocationIcon from "../../assets/icons/LocationIcon.vue";
+import EnvelopeIcon from "../../assets/icons/EnvelopeIcon.vue";
+import PhoneIcon from "../../assets/icons/PhoneIcon.vue";
 import { useToast } from "vue-toastification";
 export default {
   name: "ContactSection",

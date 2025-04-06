@@ -57,8 +57,8 @@
 </template>
 
 <script>
-import DarkmodeIcon from "../assets/icons/DarkModeIcon.vue";
-import LightmodeIcon from "../assets/icons/LightModeIcon.vue";
+import DarkmodeIcon from "../../assets/icons/DarkModeIcon.vue";
+import LightmodeIcon from "../../assets/icons/LightModeIcon.vue";
 export default {
   name: "Navbar",
   components: {

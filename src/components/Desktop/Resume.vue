@@ -1,10 +1,10 @@
 <template>
   <div>
     <div
-      class="bg-[#222222] text-white px-25 py-10 crimson-text-regular -mt-30"
+      class="dark:bg-[#222222] bg-[#F0ECE8] text-white px-25 py-10 crimson-text-regular -mt-30"
     >
       <div
-        class="title text-2xl tracking-[0.8rem] text-[#F68CC2] crimson-text-bold"
+        class="title text-2xl tracking-[0.8rem] dark:text-[#F68CC2] text-[#C14493] crimson-text-bold"
       >
         RESUME
       </div>
@@ -17,7 +17,9 @@
             data-aos-anchor-placement="top-center"
             data-aos-easing="ease-out"
           >
-            <div class="sub-title crimson-text-semibold text-2xl">
+            <div
+              class="sub-title crimson-text-semibold text-2xl dark:text-white text-black"
+            >
               Education
             </div>
             <div
@@ -26,7 +28,7 @@
               <div
                 class="col-span-2 flex justify-center items-center w-20 pr-3"
               >
-                <img src="../assets/logo-sman2.png" alt="logo-etniz" />
+                <img src="../../assets/logo-sman2.png" alt="logo-etniz" />
               </div>
               <div class="col-span-10">
                 <div class="grid grid-cols-12 justify-center items-center">
@@ -42,16 +44,24 @@
               </div>
             </div>
             <div class="tree center-line absolute -left-25 -mt-8">
-              <div class="bg-white border-1 w-16 h-0"></div>
-              <div class="relative left-16 -mt-20 bg-white border-1 w-0 h-41">
+              <div
+                class="border-1 border-black dark:border-white w-16 h-0"
+              ></div>
+              <div
+                class="relative left-16 -mt-20 border-black dark:border-white border-1 w-0 h-41"
+              >
                 <div
-                  class="point absolute -left-2 -top-1 bg-white w-4 h-4 border-1 rounded-full"
+                  class="point absolute -left-2 -top-1 dark:bg-white bg-black w-4 h-4 border-1 border-black dark:border-white rounded-full"
                 ></div>
                 <div
-                  class="point absolute -left-2 -bottom-1 bg-white w-4 h-4 border-1 rounded-full"
+                  class="point absolute -left-2 -bottom-1 dark:bg-white bg-black w-4 h-4 border-1 border-black dark:border-white rounded-full"
                 ></div>
-                <div class="line absolute bg-white top-1 border-1 w-9"></div>
-                <div class="line absolute bg-white bottom-1 border-1 w-9"></div>
+                <div
+                  class="line absolute border-black dark:border-white top-1 border-1 w-9"
+                ></div>
+                <div
+                  class="line absolute border-black dark:border-white bottom-1 border-1 w-9"
+                ></div>
               </div>
             </div>
             <div
@@ -60,7 +70,7 @@
               <div
                 class="col-span-2 flex justify-center items-center w-20 pr-3"
               >
-                <img src="../assets/logo-maranatha.png" alt="logo-marnat" />
+                <img src="../../assets/logo-maranatha.png" alt="logo-marnat" />
               </div>
               <div class="col-span-10">
                 <div class="grid grid-cols-12 justify-center items-center">
@@ -83,7 +93,9 @@
             data-aos-anchor-placement="top-center"
             data-aos-easing="ease-out"
           >
-            <div class="sub-title crimson-text-semibold text-2xl">
+            <div
+              class="sub-title crimson-text-semibold text-2xl dark:text-white text-black"
+            >
               Organization & Volunteer
             </div>
             <div
@@ -91,7 +103,7 @@
             >
               <div class="grid grid-cols-12 justify-center items-center">
                 <div class="col-span-2 flex justify-center items-center w-20">
-                  <img src="../assets/logo-semafit.png" alt="logo-semafit" />
+                  <img src="../../assets/logo-semafit.png" alt="logo-semafit" />
                 </div>
                 <div class="col-span-10 text-xl crimson-text-bold">
                   <p>SEMAFIT</p>
@@ -138,20 +150,28 @@
               </div>
             </div>
             <div class="tree center-line absolute -left-25 mt-30">
-              <div class="bg-white border-1 w-16"></div>
-              <div class="relative left-16 -mt-95 bg-white border-1 w-0 h-160">
+              <div class="border-black dark:border-white border-1 w-16"></div>
+              <div
+                class="relative left-16 -mt-95 border-black dark:border-white border-1 w-0 h-160"
+              >
                 <div
-                  class="point absolute -left-2 -top-1 bg-white w-4 h-4 border-1 rounded-full"
+                  class="point absolute -left-2 -top-1 dark:bg-white bg-black w-4 h-4 border-1 border-black dark:border-white rounded-full"
                 ></div>
                 <div
-                  class="point absolute -left-2 top-92.5 bg-white w-4 h-4 border-1 rounded-full"
+                  class="point absolute -left-2 top-92.5 dark:bg-white bg-black w-4 h-4 border-1 border-black dark:border-white rounded-full"
                 ></div>
                 <div
-                  class="point absolute -left-2 -bottom-1 bg-white w-4 h-4 border-1 rounded-full"
+                  class="point absolute -left-2 -bottom-1 dark:bg-white bg-black w-4 h-4 border-1 border-black dark:border-white rounded-full"
                 ></div>
-                <div class="line absolute bg-white top-1 border-1 w-9"></div>
-                <div class="line absolute bg-white top-94.5 border-1 w-9"></div>
-                <div class="line absolute bg-white bottom-1 border-1 w-9"></div>
+                <div
+                  class="line absolute border-black dark:border-white top-1 border-1 w-9"
+                ></div>
+                <div
+                  class="line absolute border-black dark:border-white top-94.5 border-1 w-9"
+                ></div>
+                <div
+                  class="line absolute border-black dark:border-white bottom-1 border-1 w-9"
+                ></div>
               </div>
             </div>
             <div
@@ -159,7 +179,7 @@
             >
               <div class="grid grid-cols-12 justify-center items-center">
                 <div class="col-span-2 flex justify-center items-center w-20">
-                  <img src="../assets/logo-gdg.png" alt="logo-gdg" />
+                  <img src="../../assets/logo-gdg.png" alt="logo-gdg" />
                 </div>
                 <div class="col-span-10 text-xl crimson-text-bold">
                   <p>Google Developer Groups Bandung (GDG)</p>
@@ -188,7 +208,7 @@
             >
               <div class="grid grid-cols-12 justify-center items-center">
                 <div class="col-span-2 flex justify-center items-center w-20">
-                  <img src="../assets/logo-ieee.png" alt="logo-ieee" />
+                  <img src="../../assets/logo-ieee.png" alt="logo-ieee" />
                 </div>
                 <div class="col-span-10 text-xl crimson-text-bold">
                   <p>IEEE International Conference</p>
@@ -215,7 +235,9 @@
           data-aos-anchor-placement="top-center"
           data-aos-easing="ease-out"
         >
-          <div class="sub-title crimson-text-semibold text-2xl text-end">
+          <div
+            class="sub-title crimson-text-semibold text-2xl text-end dark:text-white text-black"
+          >
             Experience
           </div>
           <div
@@ -224,7 +246,7 @@
             <div class="grid grid-cols-12 justify-center items-center">
               <div class="col-span-2 flex justify-center items-center w-20">
                 <img
-                  src="../assets/logo-hicolleagues.png"
+                  src="../../assets/logo-hicolleagues.png"
                   alt="logo-hicolleagues"
                 />
               </div>
@@ -261,25 +283,27 @@
             </div>
           </div>
           <div class="tree center-line absolute -right-24 mt-22">
-            <div class="bg-white border-1 w-12"></div>
-            <div class="relative right-0 -mt-72 bg-white border-1 w-0 h-150">
+            <div class="border-black dark:border-white border-1 w-12"></div>
+            <div
+              class="relative right-0 -mt-72 border-black dark:border-white border-1 w-0 h-150"
+            >
               <div
-                class="point absolute -right-2 -top-1 bg-white w-4 h-4 border-1 rounded-full"
+                class="point absolute -right-2 -top-1 dark:bg-white bg-black w-4 h-4 border-1 border-black dark:border-white rounded-full"
               ></div>
               <div
-                class="point absolute -right-2 top-70 bg-white w-4 h-4 border-1 rounded-full"
+                class="point absolute -right-2 top-70 dark:bg-white bg-black w-4 h-4 border-1 border-black dark:border-white rounded-full"
               ></div>
               <div
-                class="point absolute -right-2 -bottom-1 bg-white w-4 h-4 border-1 rounded-full"
+                class="point absolute -right-2 -bottom-1 dark:bg-white bg-black w-4 h-4 border-1 border-black dark:border-white rounded-full"
               ></div>
               <div
-                class="line absolute bg-white top-1 border-1 w-12.5 right-0"
+                class="line absolute border-black dark:border-white top-1 border-1 w-12.5 right-0"
               ></div>
               <div
-                class="line absolute bg-white top-71.5 border-1 w-12.5 right-0"
+                class="line absolute border-black dark:border-white top-71.5 border-1 w-12.5 right-0"
               ></div>
               <div
-                class="line absolute bg-white bottom-1 border-1 w-12.5 right-0"
+                class="line absolute border-black dark:border-white bottom-1 border-1 w-12.5 right-0"
               ></div>
             </div>
           </div>
@@ -288,7 +312,7 @@
           >
             <div class="grid grid-cols-12 justify-center items-center">
               <div class="col-span-2 flex justify-center items-center w-20">
-                <img src="../assets/logo-fit.png" alt="logo-fit" />
+                <img src="../../assets/logo-fit.png" alt="logo-fit" />
               </div>
               <div class="col-span-7 text-xl crimson-text-bold">
                 <p>Laboratory Staff</p>
@@ -322,7 +346,7 @@
           >
             <div class="grid grid-cols-12 justify-center items-center">
               <div class="col-span-2 flex justify-center items-center w-20">
-                <img src="../assets/logo-fit.png" alt="logo-fit" />
+                <img src="../../assets/logo-fit.png" alt="logo-fit" />
               </div>
               <div class="col-span-7 text-xl crimson-text-bold">
                 <p>Assistant Lecturers</p>
@@ -364,12 +388,12 @@
         </div>
       </div>
     </div>
-    <WaveResume class="bg-[#F4EFED]" />
+    <WaveResume class="bg-[#F4EFED] dark:text-[#222222] text-[#F0ECE8]" />
   </div>
 </template>
 
 <script>
-import WaveResume from "../assets/wave/WaveResume.vue";
+import WaveResume from "../../assets/wave/WaveResume.vue";
 
 export default {
   name: "ResumeSection",

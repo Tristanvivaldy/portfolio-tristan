@@ -1,50 +1,42 @@
 <template>
-  <div id="smooth-wrapper" class="overflow-hidden">
-    <section class="navbar">
-      <Navbar />
-    </section>
-    <section class="content">
-      <section id="hero" class="hero">
-        <Hero />
-      </section>
-      <section id="about" class="about">
-        <About />
-      </section>
-      <section id="resume" class="resume">
-        <Resume />
-      </section>
-      <section id="portfolio" class="portfolio">
-        <Portfolio />
-      </section>
-      <section id="contact" class="contact">
-        <Contact />
-      </section>
-    </section>
+  <div>
+    <MainPageDesktop v-if="!isMobile" />
+    <MainPageMobile v-if="isMobile" />
   </div>
 </template>
 
 <script>
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Navbar from "./components/Navbar.vue";
-import Hero from "./components/Hero.vue";
-import About from "./components/About.vue";
-import Resume from "./components/Resume.vue";
-import Portfolio from "./components/Portfolio.vue";
-import Contact from "./components/Contact.vue";
+import MainPageDesktop from "./components/Desktop/Main.vue";
+import MainPageMobile from "./components/Mobile/Main.vue";
 
 export default {
-  name: "Home",
+  name: "Main",
   components: {
-    Navbar,
-    Hero,
-    About,
-    Resume,
-    Portfolio,
-    Contact,
+    MainPageDesktop,
+    MainPageMobile,
+  },
+  data() {
+    return {
+      isMobile: false,
+    };
+  },
+  methods: {
+    handleView() {
+      this.isMobile = window.innerWidth <= 990;
+    },
+  },
+  beforeMount() {
+    this.handleView();
+  },
+  beforeUnmount() {
+    window.removeEventListener("resize", this.handleView);
   },
   mounted() {
     AOS.init();
+
+    window.addEventListener("resize", this.handleView);
 
     document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
       anchor.addEventListener("click", function (e) {
@@ -61,7 +53,6 @@ export default {
       });
     });
   },
-  methods: {},
 };
 </script>
 

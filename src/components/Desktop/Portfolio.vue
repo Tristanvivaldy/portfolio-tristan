@@ -2,7 +2,7 @@
   <div>
     <div class="bg-[#F4EFED] py-5 crimson-text-regular -mt-20">
       <div
-        class="px-25 title text-end text-2xl tracking-[0.8rem] text-[#F68CC2] crimson-text-bold"
+        class="px-25 title text-end text-2xl tracking-[0.8rem] dark:text-[#F68CC2] text-[#C14493] crimson-text-bold"
       >
         PORTFOLIO
       </div>
@@ -17,7 +17,7 @@
         >
           <div>
             <img
-              src="../assets/p-portfolio.jpg"
+              src="../../assets/p-portfolio.jpg"
               class="rounded-t-4xl"
               alt="portfolio"
             />
@@ -53,7 +53,7 @@
         >
           <div>
             <img
-              src="../assets/p-sentimen.jpg"
+              src="../../assets/p-sentimen.jpg"
               class="rounded-t-4xl"
               alt="sentimen"
             />
@@ -87,7 +87,7 @@
         >
           <div>
             <img
-              src="../assets/p-librarias.jpg"
+              src="../../assets/p-librarias.jpg"
               class="rounded-t-4xl h-103"
               alt="librarias"
             />
@@ -128,7 +128,7 @@
       </div>
     </div> -->
     </div>
-    <WavePortfolio class="bg-[#222222]" />
+    <WavePortfolio class="dark:bg-[#222222] bg-[#F0ECE8]" />
   </div>
 </template>
 
@@ -136,7 +136,7 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Axios from "axios";
-import WavePortfolio from "../assets/wave/WavePortfolio.vue";
+import WavePortfolio from "../../assets/wave/WavePortfolio.vue";
 
 gsap.registerPlugin(ScrollTrigger);
 export default {

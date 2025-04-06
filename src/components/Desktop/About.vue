@@ -2,7 +2,7 @@
   <div>
     <div class="bg-[#F4EFED] px-25 crimson-text-regular py-25">
       <div
-        class="title text-end text-2xl tracking-[0.8rem] text-[#F68CC2] crimson-text-bold"
+        class="title text-end text-2xl tracking-[0.8rem] dark:text-[#F68CC2] text-[#C14493] crimson-text-bold"
       >
         ABOUT
       </div>
@@ -14,7 +14,7 @@
             data-aos="fade-right"
           >
             <img
-              src="../assets/what-i-do-vector.png"
+              src="../../assets/what-i-do-vector.png"
               alt="what-i-do"
               class="scale-125"
             />
@@ -47,39 +47,67 @@
         >
           <div class="flex gap-25 logo-track">
             <img
-              src="../assets/skills-logo/html.png"
+              src="../../assets/skills-logo/html.png"
               class="h-24 hover:animate-none"
               alt="html"
             />
-            <img src="../assets/skills-logo/css.png" class="h-24" alt="css" />
-            <img src="../assets/skills-logo/vue.png" class="h-24" alt="vue" />
-            <img src="../assets/skills-logo/php.png" class="h-24" alt="php" />
-            <img src="../assets/skills-logo/go.png" class="h-24" alt="go" />
-            <img src="../assets/skills-logo/py.png" class="h-24" alt="py" />
             <img
-              src="../assets/skills-logo/pgsql.png"
+              src="../../assets/skills-logo/css.png"
+              class="h-24"
+              alt="css"
+            />
+            <img
+              src="../../assets/skills-logo/vue.png"
+              class="h-24"
+              alt="vue"
+            />
+            <img
+              src="../../assets/skills-logo/php.png"
+              class="h-24"
+              alt="php"
+            />
+            <img src="../../assets/skills-logo/go.png" class="h-24" alt="go" />
+            <img src="../../assets/skills-logo/py.png" class="h-24" alt="py" />
+            <img
+              src="../../assets/skills-logo/pgsql.png"
               class="h-24"
               alt="pgsql"
             />
             <img
-              src="../assets/skills-logo/tailwind.png"
+              src="../../assets/skills-logo/tailwind.png"
               class="w-20"
               alt="tailwind"
             />
 
-            <img src="../assets/skills-logo/html.png" class="h-24" alt="html" />
-            <img src="../assets/skills-logo/css.png" class="h-24" alt="css" />
-            <img src="../assets/skills-logo/vue.png" class="h-24" alt="vue" />
-            <img src="../assets/skills-logo/php.png" class="h-24" alt="php" />
-            <img src="../assets/skills-logo/go.png" class="h-24" alt="go" />
-            <img src="../assets/skills-logo/py.png" class="h-24" alt="py" />
             <img
-              src="../assets/skills-logo/pgsql.png"
+              src="../../assets/skills-logo/html.png"
+              class="h-24"
+              alt="html"
+            />
+            <img
+              src="../../assets/skills-logo/css.png"
+              class="h-24"
+              alt="css"
+            />
+            <img
+              src="../../assets/skills-logo/vue.png"
+              class="h-24"
+              alt="vue"
+            />
+            <img
+              src="../../assets/skills-logo/php.png"
+              class="h-24"
+              alt="php"
+            />
+            <img src="../../assets/skills-logo/go.png" class="h-24" alt="go" />
+            <img src="../../assets/skills-logo/py.png" class="h-24" alt="py" />
+            <img
+              src="../../assets/skills-logo/pgsql.png"
               class="h-24"
               alt="pgsql"
             />
             <img
-              src="../assets/skills-logo/tailwind.png"
+              src="../../assets/skills-logo/tailwind.png"
               class="w-20"
               alt="tailwind"
             />
@@ -93,12 +121,12 @@
         </div>
       </div>
     </div>
-    <WaveAbout class="bg-[#222222]" />
+    <WaveAbout class="dark:bg-[#222222] bg-[#F0ECE8]" />
   </div>
 </template>
 
 <script>
-import WaveAbout from "../assets/wave/WaveAbout.vue";
+import WaveAbout from "../../assets/wave/WaveAbout.vue";
 
 export default {
   name: "AboutSection",
