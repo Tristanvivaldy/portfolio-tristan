@@ -37,7 +37,7 @@
           <span class="dark:text-[#F68CC2] text-[#C14493] duration-200">
             Tristan Vivaldy
           </span>
-          a
+          a <br>
           <span
             class="dark:text-[#29FF5F] text-[#00B730]"
             ref="typingJobs"
