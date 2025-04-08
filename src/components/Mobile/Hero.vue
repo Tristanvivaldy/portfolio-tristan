@@ -13,13 +13,11 @@
         <div
           class="dark:bg-[#F4EFED] bg-[#222222] left-1/2 -translate-x-1/2 bottom-1/2 translate-y-1/2 absolute w-8/12 h-11/12 rounded-t-full backdrop-blur-sm opacity-80 shadow-2xl transition-all duration-500 ease-in-out"
         ></div>
-        <div class="picture">
-          <img
-            src="../../assets/hero-picture.png"
-            class="relative bottom-15 scale-150"
-            alt="hero-picture"
-          />
-        </div>
+        <img
+          src="../../assets/hero-picture.png"
+          class="relative bottom-15.5 scale-150"
+          alt="hero-picture"
+        />
       </div>
       <div
         class="p-5"

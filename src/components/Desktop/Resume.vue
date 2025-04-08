@@ -23,7 +23,7 @@
               Education
             </div>
             <div
-              class="content-1-education w-full h-28 mt-5 mb-15 bg-white rounded-lg text-black px-5 py-4 grid grid-cols-12"
+              class="content-1-education w-full mt-5 mb-15 bg-white rounded-lg text-black px-5 py-4 grid grid-cols-12"
             >
               <div
                 class="col-span-2 flex justify-center items-center w-20 pr-3"
@@ -65,7 +65,7 @@
               </div>
             </div>
             <div
-              class="content-1-education w-full h-28 mt-5 mb-15 bg-white rounded-lg text-black px-5 py-4 grid grid-cols-12"
+              class="content-1-education w-full mt-5 mb-15 bg-white rounded-lg text-black px-5 py-4 grid grid-cols-12"
             >
               <div
                 class="col-span-2 flex justify-center items-center w-20 pr-3"
@@ -99,7 +99,7 @@
               Organization & Volunteer
             </div>
             <div
-              class="content-1-education w-full h-96 mt-5 mb-15 bg-white rounded-lg text-black px-5 py-4"
+              class="content-1-education w-full mt-5 mb-15 bg-white rounded-lg text-black px-5 py-4"
             >
               <div class="grid grid-cols-12 justify-center items-center">
                 <div class="col-span-2 flex justify-center items-center w-20">
@@ -179,7 +179,7 @@
               </div>
             </div>
             <div
-              class="content-1-education w-full h-57 mt-5 mb-15 bg-white rounded-lg text-black px-5 py-4"
+              class="content-1-education w-full mt-5 mb-15 bg-white rounded-lg text-black px-5 py-4"
             >
               <div class="grid grid-cols-12 justify-center items-center">
                 <div class="col-span-2 flex justify-center items-center w-20">
@@ -210,7 +210,7 @@
               </div>
             </div>
             <div
-              class="content-1-education w-full h-44 mt-5 mb-15 bg-white rounded-lg text-black px-5 py-4"
+              class="content-1-education w-full mt-5 mb-15 bg-white rounded-lg text-black px-5 py-4"
             >
               <div class="grid grid-cols-12 justify-center items-center">
                 <div class="col-span-2 flex justify-center items-center w-20">
@@ -249,7 +249,7 @@
             Experience
           </div>
           <div
-            class="content-1-experience w-full h-73 mt-5 mb-15 bg-white rounded-lg text-black px-5 py-4"
+            class="content-1-experience w-full mt-5 mb-15 bg-white rounded-lg text-black px-5 py-4"
           >
             <div class="grid grid-cols-12 justify-center items-center">
               <div class="col-span-2 flex justify-center items-center w-20">
@@ -318,7 +318,7 @@
             </div>
           </div>
           <div
-            class="content-1-experience w-full h-46 mt-5 mb-15 bg-white rounded-lg text-black px-5 py-4"
+            class="content-1-experience w-full mt-5 mb-15 bg-white rounded-lg text-black px-5 py-4"
           >
             <div class="grid grid-cols-12 justify-center items-center">
               <div class="col-span-2 flex justify-center items-center w-20">
@@ -354,7 +354,7 @@
             </div>
           </div>
           <div
-            class="content-1-experience w-full h-78 mt-5 mb-15 bg-white rounded-lg text-black px-5 py-4"
+            class="content-1-experience w-full mt-5 mb-15 bg-white rounded-lg text-black px-5 py-4"
           >
             <div class="grid grid-cols-12 justify-center items-center">
               <div class="col-span-2 flex justify-center items-center w-20">

@@ -45,7 +45,10 @@
           data-aos="zoom-in"
           data-aos-duration="2000"
         >
-          <div class="flex gap-25 logo-track">
+          <div
+            class="whitespace-nowrap flex gap-25"
+            style="animation: scroll-left 5s linear infinite"
+          >
             <img
               src="../../assets/skills-logo/html.png"
               class="h-24 hover:animate-none"
@@ -137,20 +140,11 @@ export default {
 </script>
 
 <style>
-.skills-logo {
-  width: 100%;
-  white-space: nowrap;
-}
-.logo-track {
-  animation: marquee 5s linear infinite;
-  width: max-content;
-}
-
-@keyframes marquee {
-  from {
+@keyframes scroll-left {
+  0% {
     transform: translateX(0%);
   }
-  to {
+  100% {
     transform: translateX(-107%);
   }
 }

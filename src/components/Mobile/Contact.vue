@@ -1,6 +1,6 @@
 <template>
   <div
-    class="dark:bg-[#222222] bg-[#F0ECE8] text-white px-5 pt-10 crimson-text-regular relative min-h-screen -mt-10"
+    class="dark:bg-[#222222] bg-[#F0ECE8] text-white px-5 pt-10 crimson-text-regular relative min-h-screen -mt-8"
   >
     <div
       class="title text-lg tracking-[0.3rem] dark:text-[#F68CC2] text-[#C14493] crimson-text-bold"

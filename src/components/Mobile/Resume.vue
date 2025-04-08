@@ -26,10 +26,10 @@
             data-aos-easing="ease-out"
           >
             <div
-              class="content-1-education w-full h-28 my-5 bg-white rounded-lg text-black px-5 py-4 grid grid-cols-12"
+              class="content-1-education w-full my-5 bg-white rounded-lg text-black px-5 py-4 grid grid-cols-12"
             >
               <div
-                class="col-span-3 flex justify-center items-center w-20 pr-5"
+                class="col-span-3 flex justify-center items-center w-20 pr-7"
               >
                 <img src="../../assets/logo-sman2.png" alt="logo-etniz" />
               </div>
@@ -38,30 +38,30 @@
                   <div class="col-span-9 text-md crimson-text-bold">
                     SMAN 2 Kota Bekasi
                   </div>
-                  <div class="col-span-3 text-sm text-end">2017-2020</div>
+                  <div class="col-span-3 text-xs text-end">2017-2020</div>
                 </div>
-                <div class="text-md text-pink-600 crimson-text-semibold">
+                <div class="text-sm text-pink-600 crimson-text-semibold">
                   Math & Science Major
                 </div>
                 <div class="text-sm mt-1">Final Grade : 84.6</div>
               </div>
             </div>
             <div
-              class="content-1-education w-full h-28 my-5 bg-white rounded-lg text-black px-5 py-4 grid grid-cols-12"
+              class="content-1-education w-full my-5 bg-white rounded-lg text-black px-5 py-4 grid grid-cols-12"
             >
               <div
-                class="col-span-3 flex justify-center items-center w-20 pr-5"
+                class="col-span-3 flex justify-center items-center w-20 pr-7"
               >
                 <img src="../../assets/logo-maranatha.png" alt="logo-marnat" />
               </div>
               <div class="col-span-9">
                 <div class="grid grid-cols-12 justify-center items-center">
-                  <div class="col-span-9 text-sm crimson-text-bold">
+                  <div class="col-span-9 text-md crimson-text-bold">
                     Maranatha Christian University
                   </div>
-                  <div class="col-span-3 text-sm text-end">2021-2025</div>
+                  <div class="col-span-3 text-xs text-end">2021-2025</div>
                 </div>
-                <div class="text-md text-pink-600 crimson-text-semibold">
+                <div class="text-sm text-pink-600 crimson-text-semibold">
                   Bachelor of Computer Science
                 </div>
                 <div class="text-sm">GPA : 3.93</div>
@@ -86,7 +86,7 @@
             data-aos-easing="ease-out"
           >
             <div
-              class="content-1-education w-full h-85 my-5 bg-white rounded-lg text-black px-5 py-4"
+              class="content-1-education w-full my-5 bg-white rounded-lg text-black px-5 py-4"
             >
               <div class="grid grid-cols-12 justify-center items-center">
                 <div
@@ -103,7 +103,7 @@
                 </div>
               </div>
               <hr class="my-2 border-1" />
-              <div class="grid grid-cols-12 text-pink-600 items-center text-md">
+              <div class="grid grid-cols-12 text-pink-600 items-center text-sm">
                 <div class="col-span-8 crimson-text-semibold">
                   Public Relations Coordinator
                 </div>
@@ -143,7 +143,7 @@
               </div>
             </div>
             <div
-              class="content-1-education w-full h-54 my-5 bg-white rounded-lg text-black px-5 py-4"
+              class="content-1-education w-full my-5 bg-white rounded-lg text-black px-5 py-4"
             >
               <div class="grid grid-cols-12 justify-center items-center">
                 <div
@@ -156,7 +156,7 @@
                 </div>
               </div>
               <hr class="my-3 border-1" />
-              <div class="grid grid-cols-12 text-md text-pink-600">
+              <div class="grid grid-cols-12 text-sm text-pink-600">
                 <div class="col-span-8 crimson-text-semibold">
                   Runner & Publication
                 </div>
@@ -176,7 +176,7 @@
               </div>
             </div>
             <div
-              class="content-1-education w-full h-45 my-7 bg-white rounded-lg text-black px-5 py-4"
+              class="content-1-education w-full my-7 bg-white rounded-lg text-black px-5 py-4"
             >
               <div class="grid grid-cols-12 justify-center items-center">
                 <div
@@ -189,7 +189,7 @@
                 </div>
               </div>
               <hr class="my-3 border-1" />
-              <div class="grid grid-cols-12 text-md text-pink-600">
+              <div class="grid grid-cols-12 text-sm text-pink-600">
                 <div class="col-span-8 crimson-text-semibold">Usher</div>
                 <div class="col-span-4 text-end">Jan 23 - Jun 23</div>
               </div>
@@ -221,7 +221,7 @@
             data-aos-easing="ease-out"
           >
             <div
-              class="content-1-experience w-full h-75 my-7 bg-white rounded-lg text-black px-5 py-4"
+              class="content-1-experience w-full my-7 bg-white rounded-lg text-black px-5 py-4"
             >
               <div class="grid grid-cols-12 justify-center items-center">
                 <div
@@ -239,7 +239,7 @@
                   </div>
                 </div>
                 <div class="col-span-3 text-xs">
-                  <p>Feb 24 - Jun 24</p>
+                  <p>02/24 - 06/24</p>
                 </div>
               </div>
               <hr class="my-2 border-1" />
@@ -267,7 +267,7 @@
               </div>
             </div>
             <div
-              class="content-1-experience w-full h-55 my-7 bg-white rounded-lg text-black px-5 py-4"
+              class="content-1-experience w-full my-7 bg-white rounded-lg text-black px-5 py-4"
             >
               <div class="grid grid-cols-12 justify-center items-center">
                 <div
@@ -283,7 +283,7 @@
                   </div>
                 </div>
                 <div class="col-span-3 text-xs">
-                  <p>Feb 23 - Jan 24</p>
+                  <p>02/23 - 01/24</p>
                 </div>
               </div>
               <hr class="my-2 border-1" />
@@ -305,7 +305,7 @@
               </div>
             </div>
             <div
-              class="content-1-experience w-full h-77 my-7 bg-white rounded-lg text-black px-5 py-4"
+              class="content-1-experience w-full my-7 bg-white rounded-lg text-black px-5 py-4"
             >
               <div class="grid grid-cols-12 justify-center items-center">
                 <div
@@ -321,7 +321,7 @@
                   </div>
                 </div>
                 <div class="col-span-3 text-xs">
-                  <p>Sep 2023 - Jan 2024</p>
+                  <p>09/23 - 01/24</p>
                 </div>
               </div>
               <hr class="my-2 border-1" />
