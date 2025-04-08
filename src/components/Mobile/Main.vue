@@ -10,7 +10,7 @@
       <section id="about" class="about">
         <About />
       </section>
-      <!-- <section id="resume" class="resume">
+      <section id="resume" class="resume">
         <Resume />
       </section>
       <section id="portfolio" class="portfolio">
@@ -18,7 +18,7 @@
       </section>
       <section id="contact" class="contact">
         <Contact />
-      </section> -->
+      </section>
     </section>
   </div>
 </template>
@@ -27,9 +27,9 @@
 import Navbar from "./Navbar.vue";
 import Hero from "./Hero.vue";
 import About from "./About.vue";
-// import Resume from "./Resume.vue";
-// import Portfolio from "./Portfolio.vue";
-// import Contact from "./Contact.vue";
+import Resume from "./Resume.vue";
+import Portfolio from "./Portfolio.vue";
+import Contact from "./Contact.vue";
 
 export default {
   name: "Home",
@@ -37,9 +37,9 @@ export default {
     Navbar,
     Hero,
     About,
-    // Resume,
-    // Portfolio,
-    // Contact,
+    Resume,
+    Portfolio,
+    Contact,
   },
 };
 </script>

@@ -2,10 +2,10 @@
   <div class="relative w-full h-full overflow-hidden">
     <div id="hero-bg" class="absolute w-full h-full z-0 duration-300"></div>
     <div
-      class="dark:bg-[#222222] bg-[#F0ECE8] grid-cols-12 text-white px-10 crimson-text-regular py-5 z-10"
+      class="dark:bg-[#222222] bg-[#F0ECE8] text-white px-10 crimson-text-regular py-5 z-10"
     >
       <div
-        class="col-span-12 mt-20"
+        class="mt-20"
         data-aos="zoom-in"
         data-aos-duration="500"
         data-aos-easing="ease-out"
@@ -28,9 +28,9 @@
         data-aos-easing="ease-out"
       >
         <div
-          class="hero-welcome text-center text-2xl my-3 dark:text-white text-black"
+          class="hero-welcome text-center text-xl my-3 dark:text-white text-black"
         >
-          Welcome.
+          Welcome
         </div>
         <div
           class="hero-title text-center text-2xl tracking-wider dark:text-white text-black"
