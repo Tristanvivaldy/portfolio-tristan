@@ -2,7 +2,7 @@
   <div class="relative w-full h-full overflow-hidden">
     <div id="hero-bg" class="absolute w-full h-full z-0 duration-300"></div>
     <div
-      class="dark:bg-[#222222] bg-[#F0ECE8] text-white grid grid-cols-12 px-25 crimson-text-regular py-20 z-10"
+      class="dark:bg-[#222222] bg-[#F0ECE8] text-white grid grid-cols-12 px-25 crimson-text-regular py-5 z-10"
     >
       <div
         class="col-span-6 p-5"

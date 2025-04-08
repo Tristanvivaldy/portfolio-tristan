@@ -5,7 +5,7 @@
         @click="isOpen = !isOpen"
         class="text-gray-800 dark:text-white focus:outline-none"
       >
-        <DropdownLogo :isOpen="isOpen" />
+        <DropdownIcon :isOpen="isOpen" />
       </button>
       <div class="text-xl font-semibold text-black dark:text-white">
         Portfolio.
@@ -25,7 +25,7 @@
         </transition>
       </button>
     </div>
-    <transition name="fade">
+    <transition name="slide-down">
       <div
         v-if="isOpen"
         class="absolute top-13 left-0 w-full bg-[#F0ECE8] dark:bg-[#222222] text-black dark:text-white px-6 py-4 flex flex-col gap-3 z-50 shadow-lg"
@@ -66,14 +66,13 @@
 </template>
   
 <script>
-import DropdownLogo from "../../assets/icons/DropdownLogo.vue";
-
+import DropdownIcon from "../../assets/icons/DropdownIcon.vue";
 import DarkmodeIcon from "../../assets/icons/DarkModeIcon.vue";
 import LightmodeIcon from "../../assets/icons/LightModeIcon.vue";
 export default {
   name: "Navbar",
   components: {
-    DropdownLogo,
+    DropdownIcon,
     DarkmodeIcon,
     LightmodeIcon,
   },
@@ -111,6 +110,13 @@ export default {
   animation: zoomOut 0.3s ease-in;
 }
 
+.slide-down-enter-active {
+  animation: slideDown 0.2s ease-out;
+}
+.slide-down-leave-active {
+  animation: slideUp 0.2s ease-in;
+}
+
 @keyframes zoomIn {
   from {
     opacity: 0;
@@ -130,6 +136,28 @@ export default {
   to {
     opacity: 0;
     transform: scale(0.6);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-10px);
   }
 }
 </style>
